@@ -1,0 +1,58 @@
+
+
+form {
+    border:1px solid #f1f1f1;
+}
+
+input[type="text"], input[type="password"] {
+    width:100%;
+    padding:10px 20px;
+    margin:8px 0;
+    display:inline-block;
+    border:1px solid rgb(13, 12, 12);
+    box-sizing:border-box;
+}
+
+button {
+    background-color: blue;
+    color:white;
+    /* border-width:50%; */
+    cursor:pointer;
+    width:100%;
+    border-width: 0cm;
+    border:2px solid blue;
+    margin:4px;
+    padding:5px;
+}
+
+button:hover{
+ opacity:0.8;
+}
+
+.imgcontainer{
+  text-align: center;
+  margin:24px 0 12px 0;
+  padding:0px 149px;
+  
+}
+
+img.avtar{
+    width:40%;
+    border-radius:50%;
+}
+
+.container{
+    padding:13px;
+}
+
+span.account{
+    float:right;
+    padding-top:1px;
+}
+
+@media screen and (max-width:300px){
+    span.account{
+      display:block;
+      float:none;
+    }
+}
